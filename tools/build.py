@@ -172,33 +172,33 @@ def panels_html():
 
 
 SCENES = """
-<svg class="scene" viewBox="0 0 480 600" role="img" aria-label="Three bars rising from KES 5,000 to KES 15,000, topped with a sprout"><rect width="480" height="600" fill="#010395"/>
-<circle cx="380" cy="120" r="150" fill="#0a0dbd"/><circle cx="380" cy="120" r="90" fill="#1317d4"/>
+<svg class="scene" viewBox="0 0 480 600" role="img" aria-label="Three bars rising from KES 5,000 to KES 15,000, topped with a sprout, over a market trader smiling at her stall"><defs><linearGradient id="sh1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#010395" stop-opacity=".62"/><stop offset=".55" stop-color="#010395" stop-opacity=".34"/><stop offset="1" stop-color="#00014f" stop-opacity=".9"/></linearGradient></defs>
+<rect width="480" height="600" fill="#010395"/><image class="bg" href="assets/offer-1.jpg" x="-20" y="-20" width="520" height="650" preserveAspectRatio="xMidYMid slice"/><rect width="480" height="600" fill="url(#sh1)"/>
 <rect x="70" y="350" width="100" height="130" rx="18" fill="#a6dd99"/><rect x="190" y="270" width="100" height="210" rx="18" fill="#7fc16f"/><rect x="310" y="170" width="100" height="310" rx="18" fill="#5fa052"/>
 <g fill="#fff" font-size="21" font-weight="600" text-anchor="middle"><text x="120" y="520">5,000</text><text x="240" y="520">10,000</text><text x="360" y="520">15,000</text></g>
 <text x="70" y="90" fill="#fff" font-size="26" font-weight="500">Imaarika, in KES</text>
 <g transform="translate(360 170)"><path d="M0 0 V-46" stroke="#a6dd99" stroke-width="7" stroke-linecap="round"/><path d="M0 -30 C-34 -34 -44 -62 -40 -76 C-14 -76 0 -58 0 -30Z" fill="#a6dd99"/><path d="M0 -40 C30 -42 42 -66 38 -82 C14 -80 0 -64 0 -40Z" fill="#fff"/></g></svg>
-<svg class="scene" viewBox="0 0 480 600" role="img" aria-label="A receipt listing fee, interest and no hidden charges"><rect width="480" height="600" fill="#2f6a2a"/>
-<circle cx="90" cy="520" r="170" fill="#3a7a33"/>
+<svg class="scene" viewBox="0 0 480 600" role="img" aria-label="A receipt listing fee, interest and no hidden charges, over a handshake between a shop owner and a customer"><defs><linearGradient id="sh2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f6a2a" stop-opacity=".55"/><stop offset="1" stop-color="#1d4a1a" stop-opacity=".88"/></linearGradient></defs>
+<rect width="480" height="600" fill="#2f6a2a"/><image class="bg" href="assets/offer-2.jpg" x="-20" y="-20" width="520" height="650" preserveAspectRatio="xMidYMid slice"/><rect width="480" height="600" fill="url(#sh2)"/>
 <path d="M90 70 H390 V500 L367 484 L343 500 L318 484 L294 500 L270 484 L245 500 L221 484 L197 500 L172 484 L148 500 L124 484 L90 500Z" fill="#fff"/>
 <g fill="#101340" font-size="22" font-weight="600"><text x="122" y="130">Your Imaarika loan</text></g>
 <g fill="#393b63" font-size="19"><text x="122" y="200">Processing fee</text><text x="122" y="262">Interest</text><text x="122" y="324">Penalties</text><text x="122" y="386">Hidden charges</text></g>
 <g fill="#101340" font-size="19" font-weight="600" text-anchor="end"><text x="358" y="200">KES 500</text><text x="358" y="262">27%</text><text x="358" y="324">Stated first</text><text x="358" y="386" fill="#2f6a2a">None</text></g>
 <g stroke="#d8daf4" stroke-width="2" stroke-dasharray="6 6"><path d="M122 150 H358"/></g>
 <circle cx="240" cy="440" r="26" fill="#5fa052"/><path d="M227 440 l9 10 l18 -21" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-<svg class="scene" viewBox="0 0 480 600" role="img" aria-label="Branch locations connected to a mobile phone"><rect width="480" height="600" fill="#d8daf4"/>
-<circle cx="240" cy="300" r="210" fill="#e6e7f8"/><circle cx="240" cy="300" r="140" fill="#eff0fb"/>
-<g stroke="#010395" stroke-width="3" stroke-dasharray="3 9" stroke-linecap="round" fill="none"><path d="M96 150 Q170 230 210 280"/><path d="M96 450 Q170 380 210 330"/><path d="M400 120 Q330 210 285 270"/></g>
+<svg class="scene" viewBox="0 0 480 600" role="img" aria-label="Branch locations in Kawangware, Utawala and Thika connected to a mobile phone, over the Nairobi skyline at sunset"><defs><linearGradient id="sh3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#010395" stop-opacity=".5"/><stop offset=".6" stop-color="#010395" stop-opacity=".42"/><stop offset="1" stop-color="#00014f" stop-opacity=".88"/></linearGradient></defs>
+<rect width="480" height="600" fill="#010395"/><image class="bg" href="assets/offer-3.jpg" x="-20" y="-20" width="520" height="650" preserveAspectRatio="xMidYMid slice"/><rect width="480" height="600" fill="url(#sh3)"/>
+<g stroke="#fff" stroke-width="3" stroke-dasharray="3 9" stroke-linecap="round" fill="none" opacity=".9"><path d="M96 150 Q170 230 210 280"/><path d="M96 450 Q170 380 210 330"/><path d="M400 120 Q330 210 285 270"/></g>
 <g fill="#5fa052"><circle cx="96" cy="150" r="22"/><circle cx="96" cy="450" r="22"/><circle cx="400" cy="120" r="22"/></g><g fill="#fff"><circle cx="96" cy="150" r="8"/><circle cx="96" cy="450" r="8"/><circle cx="400" cy="120" r="8"/></g>
-<g fill="#101340" font-size="18" font-weight="600"><text x="126" y="157">Kawangware</text><text x="126" y="457">Utawala</text><text x="300" y="100" >Thika</text></g>
-<rect x="195" y="230" width="100" height="190" rx="20" fill="#010395"/><rect x="205" y="250" width="80" height="140" rx="8" fill="#fff"/><circle cx="245" cy="406" r="6" fill="#d8daf4"/>
+<g fill="#fff" font-size="18" font-weight="600" style="paint-order:stroke;stroke:rgba(0,1,79,.55);stroke-width:4px"><text x="126" y="157">Kawangware</text><text x="126" y="457">Utawala</text><text x="300" y="100">Thika</text></g>
+<rect x="195" y="230" width="100" height="190" rx="20" fill="#010395" stroke="#fff" stroke-opacity=".7" stroke-width="3"/><rect x="205" y="250" width="80" height="140" rx="8" fill="#fff"/><circle cx="245" cy="406" r="6" fill="#d8daf4"/>
 <rect x="215" y="268" width="60" height="10" rx="5" fill="#d8daf4"/><rect x="215" y="290" width="40" height="10" rx="5" fill="#d8daf4"/><rect x="215" y="322" width="60" height="42" rx="10" fill="#5fa052"/></svg>
-<svg class="scene" viewBox="0 0 480 600" role="img" aria-label="Steps climbing upward, one step per loan"><rect width="480" height="600" fill="#00014f"/>
-<circle cx="120" cy="140" r="120" fill="#0a0dbd" opacity=".7"/>
+<svg class="scene" viewBox="0 0 480 600" role="img" aria-label="Steps climbing upward, one step per loan, over a field being harvested"><defs><linearGradient id="sh4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00014f" stop-opacity=".78"/><stop offset=".5" stop-color="#010395" stop-opacity=".4"/><stop offset="1" stop-color="#00014f" stop-opacity=".9"/></linearGradient></defs>
+<rect width="480" height="600" fill="#00014f"/><image class="bg" href="assets/offer-4.jpg" x="-20" y="-20" width="520" height="650" preserveAspectRatio="xMidYMid slice"/><rect width="480" height="600" fill="url(#sh4)"/>
 <rect x="60" y="400" width="90" height="120" rx="14" fill="#a6dd99"/><rect x="160" y="340" width="90" height="180" rx="14" fill="#7fc16f"/><rect x="260" y="270" width="90" height="250" rx="14" fill="#5fa052"/><rect x="360" y="190" width="70" height="330" rx="14" fill="#fff"/>
 <g stroke="#a6dd99" stroke-width="3" stroke-dasharray="3 9" stroke-linecap="round" fill="none"><path d="M105 370 Q140 300 205 310"/><path d="M205 310 Q250 250 305 240"/><path d="M305 240 Q340 170 395 160"/></g>
 <circle cx="395" cy="150" r="22" fill="#5fa052"/><path d="M384 150 l8 9 l16 -19" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="60" y="80" fill="#fff" font-size="26" font-weight="500">Each good repayment</text><text x="60" y="112" fill="#cfd1f3" font-size="22">opens the next door faster</text></svg>
+<text x="60" y="80" fill="#fff" font-size="26" font-weight="500">Each good repayment</text><text x="60" y="112" fill="#e3e5fa" font-size="22">opens the next door faster</text></svg>
 """
 
 SERVICES = [
@@ -285,7 +285,7 @@ def build_home():
 <li class="live"><span class="bn">Utawala</span><span class="bd"><i class="tag"></i>Branch, trading</span></li>
 <li class="live"><span class="bn">Thika</span><span class="bd"><i class="tag"></i>Branch, trading</span></li>
 <li class="live"><span class="bn">Nairobi</span><span class="bd"><i class="tag"></i>Head office</span></li>
-<li class="soon"><span class="bn">Six more</span><span class="bd"><i class="tag"></i>Branches planned</span></li>
+<!--<li class="soon"><span class="bn">Six more</span><span class="bd"><i class="tag"></i>Branches planned</span></li>-->
 </ul></div></section>
 
 <section class="sec sec--leaf">
